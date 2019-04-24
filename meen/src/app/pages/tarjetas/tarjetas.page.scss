@@ -1,0 +1,139 @@
+
+.titulo{
+  font-size: 24px;
+}
+.scroll-content{
+  background-color: rgba(75, 11, 50, 0.781)
+}
+.euro:active{
+  background: #E5087E;
+  color: white;
+}
+.principalll{
+  background: rgba(75, 11, 50, 0.781) !important; 
+  position: absolute;
+  width: 100%;
+  height: 780px;
+  margin-left: -16px;
+  margin-top: -16px;
+}
+
+
+.cajaMonix[_ngcontent-c3]{
+  margin-top: 20px;
+}
+
+
+
+
+   
+
+    .engloba{
+     padding: 5px;
+     height: 90px;
+     width: 230px;
+     margin: 0 auto;
+     background: white;
+     border-radius: 10px 10px 10px 10px;
+    }
+
+    .contImagen{
+       display: inline-flex;
+        top:200px;
+        width: 90px;
+        height:70px;
+    }
+
+    .imagen{
+        width: 100%;
+        height:100%;
+        background-image: url("../../../assets/imgs/tarjeta1.PNG");
+        background-size: cover; 
+        margin-left: 10px;
+    }
+    .imagen2{
+      width: 100%;
+      height:100%;
+      background-image: url("../../../assets/imgs/paypal.png");
+      background-size: cover; 
+      margin-left: 10px;
+  }
+  .imagen3{
+    width: 100%;
+    height:100%;
+    background-image: url("../../../assets/imgs/corte.png");
+    background-size: cover; 
+    margin-left: 5px;
+}
+
+    .datos{
+      position: relative;
+      background: white;
+      border-radius: 1px solid black;
+      width: 50%;
+      right: -110px;
+      top:-75px;
+      padding: 1px;
+      
+    }
+  
+    /*  pie de tarjeta*/
+     
+      .but{
+        
+         color:white;
+         width: 30%;
+         height: 20px;
+         font-size: 13px;
+         margin-right:  40px;
+         margin-left:25px;
+         margin-top: -40%;
+         background: #E5087E;
+      }
+      .dinero{
+        background:white;
+        padding-left: 12px;
+        padding-right:10px;
+        border: 1px solid black;
+        border-radius: 5px;
+        color: #E5087E;
+        font-size: 9px;
+        font-weight: bold;
+
+        
+        
+    }
+    
+    .logoDin{
+     height: 12px;
+     width: 12px;
+     position: relative;
+     top:3px;
+     left:12px;
+     
+       }
+
+       ion-content{
+        background-color: #E5087E;
+    }
+    .euro{
+      margin-left: 3px;
+      font-size: 10px;
+
+    }
+    .canjea{
+      margin-left: 25%;
+      width: 50px;
+      height: 20px;
+      font-size: 10px;
+      text-transform: none;
+    }
+    .descrip{
+        background: #581845;
+        border: 1px solid rgba(0, 0, 0, 0.219);
+        border-radius: 50px;
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        
+    }

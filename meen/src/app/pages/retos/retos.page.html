@@ -1,0 +1,26 @@
+
+<ion-content padding >
+    <app-cabecera [titulohead]="tituhead"></app-cabecera>
+    <ion-grid text-center class="contenedor" padding>
+      <ion-row>
+          <ion-col>
+                 <div  class="cont_titu"><h3  class="titu">Retos de Fotografia <img src="../../../assets/imgs/camara.png" class="iconos" ></h3></div>
+                 <button ion-button class="caja caja_uno" (click)="fotoReto()"></button>
+                </ion-col>
+      </ion-row>
+      <ion-row>
+             <ion-col>
+                   <div  class="cont_titu"><h3  class="titu">Retos de Vídeo  <img src="../../../assets/imgs/videoicon.png" class="iconos" ></h3></div>
+                   <button ion-button  class="caja caja_dos" (click)="videoReto()" ></button>
+             </ion-col>
+      </ion-row>
+      <ion-row >
+             <ion-col>
+                 <div  class="cont_titu"><h3  class="titu">Retos de Quiz!  <img src="../../../assets/imgs/quizicon.png" class="iconos" ></h3></div>
+                 <button ion-button  class="caja caja_tres" (click)="quizReto()" ></button>
+                
+             </ion-col>
+        </ion-row>
+       
+  </ion-grid>
+  </ion-content>

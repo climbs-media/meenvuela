@@ -1,0 +1,68 @@
+//Letras minusculas android
+.button-inner{
+    text-transform: none;
+  }
+  
+  
+      //CABEZERA
+      .contiene{
+        text-align: center;
+        padding-top:15px;
+  
+        }
+      .alas{
+          width: 80px;
+          height: 80px;
+          margin-left:35%;
+        }
+       .headbot{
+           margin-left:10%;
+           height: 30px;
+           width: 90px;
+           bottom: 25px;
+           background:#E5087E;
+           color: white;
+           border-radius: 30px;
+       }
+     //fin de cabezera
+   
+   //TITULOS DE CAJAS
+   .titu{
+      color: #F9F7F6;
+      text-shadow:2px 0 0 rgb(69, 69, 255), -1px 0 0 rgb(69, 69, 255), 0 1px 0 rgb(69, 69, 255), 0 -1px 0 rgb(69, 69, 255), 0.5px 0.5px rgb(69, 69, 255), -0.5px -0.5px 0 rgb(69, 69, 255), 0.5px -0.5px 0 rgb(69, 69, 255), -0.5px 0.5px 0 rgb(69, 69, 255); 
+      font-size: 20px;
+    }
+      //CAJA DE IMAGENES
+      .caja{
+          width: 232px;
+          height:115px;
+          border:0.5px solid black;
+        }
+  
+       .caja_evEspeciales{
+        background-image:url("../../../assets/imgs/portadas/eve_especial.PNG");
+         background-size: cover;
+         height: 110px;
+       }
+       
+       .caja_ganadores{
+        background-image:url("../../../assets/imgs/portadas/ganadores2.PNG");
+        background-size: cover;
+        height: 110px;
+        }
+        
+       .caja_eventos{
+        background-image:url("../../../assets/imgs/portadas/eventos2.PNG");
+        background-size: cover;
+        height: 110px;
+        }
+        //fin de caja imagenes
+        .copa{
+          position: absolute;
+          transform: rotate(-30deg);
+          width: 30px;
+          height: 30px;
+          z-index: 100;
+        }
+
+     

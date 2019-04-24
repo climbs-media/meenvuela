@@ -1,0 +1,46 @@
+
+
+ //TITULOS DE CAJAS
+ .cont_titu{
+     background: #E5087E;
+     width: 80%;
+     height: 24px;
+     margin:0 auto;
+     border-radius: 4px 4px 4px 4px;
+ }
+ .titu{
+    color: #F9F7F6;
+    font-size: 12px;
+  }
+    //CAJA DE IMAGENES
+    .caja{
+        width: 80%;
+        height:130px;
+        border:0.5px solid black;
+      }
+
+     
+      .caja_uno{
+        background-image: url("../../../assets/imgs/portadas/retofoto.PNG");
+        background-size: cover; 
+      }
+      
+      .caja_dos{
+         background-image: url("../../../assets/imgs/portadas/especiales.PNG");
+         background-size: cover; 
+       }
+      
+      .but_participa{
+        width: 25%;
+        height:24px;
+        color:white;
+        font-size: 12px;
+        text-transform: none;
+      }
+      .volver{
+        background: none;
+        float: left;
+        margin-top: -10px;
+        margin-left: -15px;
+        
+      }

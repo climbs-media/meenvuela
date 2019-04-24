@@ -1,0 +1,93 @@
+
+/* cerramos */
+.close-fake {
+    --background: transparent;
+    ion-icon {
+    font-size: 1rem;
+    color: white;
+    background: rgb(212, 38, 142);
+    border-radius: 30px;
+    
+            
+    }
+    margin-top: 30px;
+    margin-left: 75%;
+}
+ 
+ion-content {
+    --background: rgba(59, 1, 39, 0.555);
+}
+
+
+.principal{
+    background:rgba(255, 255, 255, 0.8);
+    
+    background-size: cover;
+    margin-top: 30%;
+    margin-left: 10%;
+    width: 80%;
+    height: 70%;
+    border-radius: 5px;
+  }
+/*  barra de  carga*/
+.bar{
+
+width: 80%;
+height: 20px;
+border: 1px solid black;
+border-radius: 10px 10px;
+margin:0px auto;
+}
+
+.bar_progres{
+ width: 30%;
+ background: #E5087E;
+ height: 18px;
+ border-radius: 10px 10px;
+}
+
+/* todos los botones */
+.botone{
+    color:white;
+    font-size: 10px;
+    height: 20px;
+    margin-left: 25%;
+}
+.botones{
+    color:white;
+    font-size: 10px;
+    height: 20px;
+    margin: 0 auto;
+
+}
+
+/* primer bloque : flcha boton barra*/
+ .bloque{
+     width: 80%;
+     border:0.5px solid grey;
+     padding:10px;
+     margin: 0 auto;
+     margin-bottom: 5px;
+ }
+ .flecha{
+     font-size: 50px;
+     color:#E5087E;
+     margin-left: 35%;
+ }
+ /* bloque apartes*/
+ .subtitulo{
+     width: 180px;
+     background:#E5087E;
+     color:white;
+     margin: 0px auto;
+     height: 15px;
+     font-size: 13px;
+ }
+ .bloque2{
+     margin-top: 10px;
+     margin-left: 20%;
+ }
+ .bloque3{
+    margin-top: 10px;
+    margin-left: 40%;
+}

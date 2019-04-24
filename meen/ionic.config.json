@@ -1,0 +1,7 @@
+{
+  "name": "MEENVUELA",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}

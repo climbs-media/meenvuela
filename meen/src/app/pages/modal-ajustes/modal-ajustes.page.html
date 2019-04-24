@@ -1,0 +1,51 @@
+<ion-content fullscreen >
+             
+  <div class="principal">
+  <ion-grid>
+  <ion-row class="modal" >
+    <ion-col>
+      <ion-item class="close-fake" lines="none" text-center>
+        <ion-button (click)="close()" fill="clear" color="light">
+          <ion-icon name="close" slot="start"></ion-icon>
+        </ion-button>
+        </ion-item>
+          <div class="circular">
+             <img   class="circular" src="./../../assets/imgs/cabezera/logo.png" >
+         </div>
+         <div class="ni"> NIVEL 1</div>
+         <div class="barita">
+             <div class=barita_progres><div class=barita_progres2></div></div>
+             
+         </div>
+    </ion-col>
+    <ion-col col-12>
+      <div class="cajatexto">
+          <ion-input  type="text" class="inputexto" placeholder="Nombre y Apellido"></ion-input>
+     </div> 
+  </ion-col>
+    <ion-col col-12>
+         <div class="cajatexto">
+             <ion-input  type="text" class="inputexto" placeholder="Nombre de Usuario"></ion-input>
+        </div> 
+   </ion-col>
+   <ion-col col-12>
+         <div class="cajatexto">
+            <ion-input  type="text" class="inputexto" placeholder="Cambiar Correo"></ion-input>
+        </div> 
+   </ion-col>
+   <ion-col col-12>
+       <div class="cajatexto">
+           <ion-input  type="text" class="inputexto" placeholder="Cambiar Cotraseña"></ion-input>
+        </div> 
+        <div class="but_ubi">Ubicación
+        </div>
+        <ion-toggle color="primary" class="toggle"></ion-toggle>
+        <button ion-button  class="but_cerrar" routerLink="/login" (click)="close()" >Cerrar Sesión</button>
+     </ion-col>
+     
+  </ion-row>
+  
+  </ion-grid>
+  </div>
+  <button ion-button  class="but_vota" >Guardar</button>
+   </ion-content>

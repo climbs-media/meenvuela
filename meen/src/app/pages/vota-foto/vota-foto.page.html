@@ -1,0 +1,23 @@
+<ion-content padding>
+   <app-cabecera [titulohead]="tituhead"></app-cabecera>
+  <ion-grid text-center class="contenedor" padding>
+    <div [hidden]='valorhiden' class="votado">GRACIAS ! votaste a {{votado}}</div>
+    <ion-row>
+         <ion-col>
+            <button (click)="volver()" class="volver"><img src="../../assets/imgs/retroceso.png"></button> 
+               <div  class="cont_titu"><h3  class="titu">Vota Por Tus Fotografías Favoritas</h3></div>
+               <button ion-button class="caja caja_uno" (click)="votaFo(usuario)"></button>
+               <ion-button color="primary"  class="but_vota" (click)="votaFo(usuario)" >
+                       Fotografia de <br> ({{usuario}})</ion-button>
+          </ion-col>
+    </ion-row>
+    <ion-row>
+         <ion-col>
+            <button ion-button class="caja caja_dos" (click)="votaFo(usuario2)"></button>
+            <ion-button  color="primary"  class="but_vota" (click)="votaFo(usuario2)" >
+                             Fotografia de <br> ({{usuario2}})</ion-button>
+         </ion-col>
+   </ion-row>
+ 
+</ion-grid>
+</ion-content>

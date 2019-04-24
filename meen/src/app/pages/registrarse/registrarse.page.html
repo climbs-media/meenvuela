@@ -1,0 +1,66 @@
+
+    <ion-header><div class="contiene">
+        
+        <img class="alas" src="./../../assets/imgs/cabezera/Logo_Mesa de trabajo 1.png">
+        <button routerLink="/login" class="volver"><img src="../../assets/imgs/retroceso.png"></button>
+      
+    </div></ion-header>
+    <h1 text-center>Registro</h1>
+<ion-content class="fondo">
+
+    <ion-item>
+        <ion-label position="floating" color="ion-color-dark" >Nombre</ion-label>
+        <ion-input type="text" ></ion-input>
+      </ion-item>
+   
+      <ion-item>
+        <ion-label position="floating" color="ion-color-dark">Correo Electronico</ion-label>
+        <ion-input type="text" ></ion-input>
+      
+      </ion-item>
+      <ion-item>
+          <ion-label position="floating" color="ion-color-dark">Ciudad</ion-label>
+          <ion-input type="text" ></ion-input>
+        </ion-item>
+        <ion-item>
+            <ion-label position="floating" color="ion-color-dark">Codigo Postal</ion-label>
+            <ion-input type="text" ></ion-input>
+          </ion-item>
+          <ion-item>
+              <ion-label position="floating" color="ion-color-dark">Edad</ion-label>
+              <ion-input type="text" ></ion-input>
+            </ion-item>
+            <ion-item>
+                <ion-label position="floating" color="ion-color-dark">Contraseña</ion-label>
+                <ion-input type="text" ></ion-input>
+              </ion-item>
+              <ion-item>
+                  <ion-label position="floating" color="ion-color-dark">Confirmar Contraseña</ion-label>
+                  <ion-input type="text" ></ion-input>
+                </ion-item>
+
+                <ion-radio-group>
+                    
+                    <ion-row>
+                      <ion-item class="sexo">
+                        <ion-icon name="woman" item-start></ion-icon>
+                        <ion-radio value="2"></ion-radio>
+                      </ion-item>
+                      <ion-item class="sexo">
+                        <ion-icon name="man" item-start></ion-icon>
+                        <ion-radio value="1"></ion-radio>
+                      </ion-item>
+                    </ion-row> 
+                    </ion-radio-group>
+
+                    <ion-item class="fecha" >
+                  <ion-label position="floating" color="ion-color-dark">Fecha de Nacimiento</ion-label>
+                    <ion-datetime displayFormat="DD/MM/YYYY" required></ion-datetime>
+                    </ion-item>
+                    <div style="text-align: center; margin-top: 70px; ">
+                  <p ><ion-checkbox checked="false"></ion-checkbox>Acepto Terminos y Condiciones</p>  
+                <span style="color:rgb(54, 54, 54); font-style: italic; text-decoration: underline" routerLink="/terminos">Más</span>
+              </div>
+
+               <ion-button class="botonRegistro" text-center routerLink="/login">Acceder</ion-button> 
+</ion-content>

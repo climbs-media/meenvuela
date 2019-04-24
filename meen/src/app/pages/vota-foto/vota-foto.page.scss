@@ -1,0 +1,65 @@
+.contenedor{
+    padding-bottom: 10px;
+ }
+ //VOTADO
+ .votado{
+      background: green;
+      color:  white;
+      padding:10px;
+      text-align: center;
+ }
+ .titulo{
+   font-size: 18px;
+ }
+
+ //TITULOS DE CAJAS
+ .cont_titu{
+     background: #E5087E;
+     width: 75%;
+     margin:0 auto;
+     border-radius: 4px 4px 4px 4px;
+     
+ }
+
+ .volver{
+    background: none;
+    float: left;
+    margin-left: -30px;
+    
+  }
+  
+ .titu{
+    color: #F9F7F6;
+    font-size: 15px;
+    
+   
+  }
+    //CAJA DE IMAGENES
+    .caja{
+        width: 232px;
+        height:140px;
+        border:0.5px solid black;
+      }
+
+     .caja_uno{
+       background-image:url("../../../assets/imgs/concursante/Alejandro.jpg");
+       background-size: cover; 
+     }
+     
+     .caja_dos{
+        background-image:url("../../../assets/imgs/concursante/alejandro.jpg");
+        background-size: cover; 
+      }
+      
+     .caja_tres{
+        background-image:url("../../../assets/imgs/eve.png");
+        background-size: cover; 
+      }
+
+      .but_vota{
+        width: 50%;
+        text-transform: none;
+        
+        color:white;
+        font-size: 12px;
+      }

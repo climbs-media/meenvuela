@@ -1,0 +1,150 @@
+//Letras minusculas android
+.button-inner{
+  text-transform: none;
+}
+     //CABEZERA
+     .contiene{
+        text-align: center;
+        padding-top:15px;
+
+        }
+      .alas{
+          width: 80px;
+          height: 80px;
+       }
+      //fin de cabezera
+
+       .titulo{
+         color: #F9F7F6;
+         text-align: center;
+         text-shadow:2px 0 0 #E5087E, -2px 0 0 #E5087E, 0 2px 0 #E5087E, 0 -2px 0 #E5087E, 1px 1px #E5087E, -1px -1px 0 #E5087E, 1px -1px 0 #E5087E, -1px 1px 0 #E5087E;
+       }
+
+    //CAJAS DE ACCEDER
+    .cajatexto{
+        text-align: justify;
+        outline: none;
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom:50px;
+        height: 25px;
+        --min-height:25px;
+        --border-radius: 50px;
+    }
+
+    .cajas{
+      width: 100%;
+      margin-bottom:30px;
+      margin-top: 20px;
+      border-radius: 100px;
+      height: 30px;
+    }
+    .error-message{
+      margin-top: 30px;
+      margin-left: 40px;
+      color: #f04141;
+    }
+    .mensaje{
+      font-size: 15px;
+      margin-left: 80px;
+      padding-top: 5px;
+  }
+    
+   
+      .input_texto{
+          margin-left:60px;
+          position: relative;
+          height: 30px;
+      
+        
+      }
+      //fin de cajas de acceder
+
+
+      //boton de aceder
+      .butAceder{
+        height: 25px;
+        width: 100px;
+        font-size: 15px;
+        background:#E5087E;
+       }
+     
+      //botones redes sociales
+      .redeSocial{
+        
+          margin:0 auto;
+          font-size: 15px;
+      }
+      .but{
+        //  display: inline-;
+        
+         height: 30px;
+         width:40%;
+         font-size:13px;
+         margin:5px;
+         border:1px solid grey;
+         border-radius: 5px 5px 5px 5px;
+         
+      }
+      .butface{
+        //  display: inline-;
+     
+         height: 25px;
+         background: rgb(59, 89, 152);
+         width:40%;
+         font-size:13px;
+         margin:5px;
+         border:1px solid grey;
+         border-radius: 5px 5px 5px 5px;
+      }
+      .checkbox-ios .checkbox-icon {
+      
+        width:15px;
+        height: 15px;
+    }
+    md .checkbox-icon{
+      background: #000;
+    }
+
+    //iconos input
+
+    .iconosinput{
+      position: absolute;
+      color:#E5087E;
+      margin-left: 15px;
+      margin-top: 5px;
+      
+    }
+    .submit-btn
+    {
+  margin-top: 15px;
+  margin-left: 33%;
+        }
+
+        .facebook{
+          text-align: center;
+          text-transform: none;
+          --background: rgb(59, 89, 152);
+          margin-left: 25%;
+     }
+
+     .google{
+      text-align: center;
+      text-transform: none;
+      --background: rgb(199,22,16);
+      margin-left: 25%;
+
+     }
+     .go-to-register{
+      margin-left: 50px;
+     }
+
+     .fb{
+       margin-right: 10px;
+     }
+
+
+
+
+      
+      

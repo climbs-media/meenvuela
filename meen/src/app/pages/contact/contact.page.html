@@ -1,0 +1,95 @@
+
+
+<ion-content text-center>
+    <ion-grid>
+        <ion-row bg-success>   
+          <ion-col>
+                <h1 text-center margin class="titulox">Perfil</h1>
+               <div class="descrip" (click)="irParticipar()"><img src="../../../assets/icon/boton.png" class="descrip"></div> 
+               <div class="contenicon">
+               <div  (click)="irAjustes()" class="botAjuste"><img src="../../../assets/icon/ajustes.png"></div>
+               <div  class="podium" ><img src="../../../assets/icon/ranking.png"></div>
+               <ion-fab class="share" color="primary">
+                  <button ion-fab mini color="primary"><ion-icon name="md-share"></ion-icon></button>
+                  <ion-fab-list>
+                    <button ion-fab class="color" ><ion-icon name="logo-facebook"></ion-icon></button>
+                    <button ion-fab class="color"><ion-icon name="logo-twitter"></ion-icon></button>
+                    <button ion-fab class="color"><ion-icon name="logo-vimeo"></ion-icon></button>
+                    <button ion-fab class="color"><ion-icon name="logo-googleplus"></ion-icon></button>
+                  </ion-fab-list>
+                </ion-fab>
+                  </div>
+                  
+               <ion-col col-12>
+                     <div class="circular">
+                           <img   class="circular" src="../../../assets/imgs/perfil.jpg" >
+                        </div>
+                  <div class="conten">
+                           <div class="ni"> NIVEL 1</div>
+                           <img class="log" src="../../../assets/imgs/cabezera/logo.png">
+                                 <div class="barita">
+                                     <div class=barita_progres><div class=barita_progres2></div></div>
+                                     
+                                 </div>
+                              
+                                   
+                                 
+                  </div>
+                  <div class="conten2">
+                  <div class="cajaMonix">
+                              <img class="logx2" src="../../../assets/imgs/cabezera/logo2.png">
+                                 <div class="ni"> MONIX 1</div>
+                                 <div class="monix">1,356</div>
+                           </div>
+                        </div>      
+             </ion-col>
+          </ion-col>
+        </ion-row>
+         <ion-row  text-center >
+               <ion-col col-12>
+                  <div class="cajatexto2">
+                   <p style="margin-top:-3px;">nombre de usuario</p>
+                 </div>
+               </ion-col>
+            </ion-row>
+            <ion-col>
+               <div class="texto">Niveles desbloqueados</div>
+
+               <div class="container">
+                     <div class="scroll" scrollY="true">
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 1.png" class="niveles"></span>
+                       <span> <img src="../../../assets/imgs/niveles/Mesa de trabajo 2.png" class="niveles3"></span>
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 3.png" class="niveles2"></span>
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 4.png" class="niveles2"></span>
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 5.png" class="niveles2"></span>
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 6.png" class="niveles2"></span>
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 7.png" class="niveles2"></span>
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 8.png" class="niveles2"></span>
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 9.png" class="niveles2"></span>
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 10.png" class="niveles2"></span>
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 11.png" class="niveles2"></span>
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 12.png" class="niveles2"></span>
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 13.png" class="niveles2"></span>
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 14.png" class="niveles2"></span>
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 15.png" class="niveles2"></span>
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 16.png" class="niveles2"></span>
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 17.png" class="niveles2"></span>
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 18.png" class="niveles2"></span>
+                       <span><img src="../../../assets/imgs/niveles/Mesa de trabajo 19.png" class="niveles2"></span>
+                     </div>
+                   </div>
+            </ion-col>
+
+     </ion-grid>
+     <ion-grid style="margin-top:10%; background: white;" class="fotos">
+    
+
+      <div class="fperfil" *ngFor="let img of [1, 2, 3]">
+    
+            <img src="../../../assets/imgs/fotosperfil/Rectangle 4.jpg" tappable (click)="mostrarimg(img)">
+               </div>
+
+    </ion-grid>
+     
+  
+</ion-content>

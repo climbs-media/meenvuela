@@ -1,0 +1,72 @@
+
+     .volver{
+        background: none;
+        float: left;
+        margin-left: -30px;
+        
+      }
+      
+       //TITULOS DE CAJAS
+       .cont_titu{
+           background: #E5087E;
+           width: 75%;
+           margin:0 auto;
+           border-radius: 4px 4px 4px 4px;
+       }
+       .titu{
+          color: #F9F7F6;
+          font-size: 17px;
+        }
+          //CAJA DE IMAGENES
+          .caja{
+              width: 232px;
+              height:115px;
+            }
+      
+           .caja_uno{
+             background-image: url("../../../assets/imgs/reto/video/reto1.PNG");
+             background-size: cover; 
+           }
+           
+           .caja_dos{
+              background-image: url("../../../assets/imgs/reto/video/reto2.PNG");
+              background-size: cover; 
+            }
+            
+           .caja_tres{
+              background-image: url("../../../assets/imgs/reto/video/reto3.PNG");
+              background-size: cover; 
+            }
+  
+            .but_vota{
+              width: 60%;
+              color:white;
+              font-size: 13px;
+              text-transform: none;
+            }
+  
+            //boton de participacion
+            .cont_parti{
+             background: #E5087E;
+             position: absolute;
+             width: 10%;
+             height: 6%;
+             top:19%;
+             left: 83%;
+             border-radius:50%;
+            }
+  
+            .participa{
+              background:transparent;
+             right: 14px;
+             bottom: 2px;
+              font-size: 25px;
+              width: 100%;
+               height: 100%;
+              
+            }
+            .iconos{
+              float: right;
+              margin-right: 8px;
+              margin-top: 4px;
+            }

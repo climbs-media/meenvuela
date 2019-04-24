@@ -1,0 +1,43 @@
+<ion-content padding class="form-content">
+<div class="contiene">
+   <img class="alas" src="./../../assets/imgs/cabezera/Logo_Mesa de trabajo 1.png">
+   </div>
+
+      <h1 class="titulo"> Login</h1>
+      <form class="form" [formGroup]="validations_form">
+        <ion-item class="cajatexto">
+          <ion-label position="floating" color="primary">Email</ion-label>
+          <ion-input type="text" formControlName="email" class="input_texto"></ion-input>
+        </ion-item>
+        <div class="validation-errors">
+          <ng-container *ngFor="let validation of validation_messages.email">
+            <div class="error-message" *ngIf="validations_form.get('email').hasError(validation.type) && (validations_form.get('email').dirty || validations_form.get('email').touched)">
+              {{ validation.message }}
+            </div>
+          </ng-container>
+        </div>
+        <ion-item class="cajatexto">
+          <ion-label position="floating" color="primary">Contraseña</ion-label>
+          <ion-input type="password" formControlName="password" class="input_texto"></ion-input>
+        </ion-item>
+        <div class="validation-errors">
+          <ng-container *ngFor="let validation of validation_messages.password">
+            <div class="error-message" *ngIf="validations_form.get('password').hasError(validation.type) && (validations_form.get('password').dirty || validations_form.get('password').touched)">
+              {{ validation.message }}
+            </div>
+          </ng-container>
+        </div>
+        <ion-button class="submit-btn" type="submit" [disabled]="!validations_form.valid" routerLink="/tabs/tab1">Acceder</ion-button>
+        <label class="error-message">{{errorMessage}}</label>
+      </form>
+
+      <p class="go-to-register">
+        No tienes una Cuenta? <a routerLink="/registrarse">Regístrate.</a>
+      </p>
+      <ion-col class="mensaje" col-12>
+        <ion-checkbox checked="false" ></ion-checkbox>   Recordar Contraseña
+    </ion-col>
+
+      <ion-button class="facebook"><ion-icon name="logo-facebook" class="fb"></ion-icon>Ingresa con Facebook</ion-button>
+      <ion-button class="google"><ion-icon name="logo-googleplus" class="fb"></ion-icon> Ingresa con Gmail</ion-button>
+    </ion-content>

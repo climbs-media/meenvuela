@@ -1,0 +1,27 @@
+
+<ion-content fullscreen >
+
+       <div class="principal">
+          <ion-item class="close-fake" lines="none" text-center>
+              <ion-button (click)="close()" fill="clear" color="light">
+              <ion-icon name="close" slot="start"></ion-icon>
+              </ion-button>
+              </ion-item>
+          <div  class="cont_imagen" >
+          <img class="imagen"  src="../../../assets/imgs/fotosperfil/Rectangle 3.png"/>
+        </div>
+       <div class="cont_pieFoto">
+         
+           <div class="pieFoto">
+               Reto de Fotografía<br>
+              </div>
+       </div>
+        <div class="descri">
+          <h1 class="descripcion">Descripción del reto</h1><br>
+            {{descripcion}}
+        </div>
+        <div text-center class="cont_boton">
+           <button class="boton"  (click)="abrirModalSube()">Participar</button>
+       </div>
+      </div>
+  </ion-content>

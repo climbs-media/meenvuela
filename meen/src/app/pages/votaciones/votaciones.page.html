@@ -1,0 +1,22 @@
+
+<ion-content padding >
+ <app-cabecera [titulohead]="tituhead"></app-cabecera>
+  <ion-grid text-center class="contenedor" padding>
+    <ion-row>
+        <ion-col>
+              <button routerLink="/tabs/tab1" class="volver"><img src="../../assets/imgs/retroceso.png"></button> 
+               <div  class="cont_titu"><h3  class="titu">Retos</h3></div>
+               <button  class="caja caja_uno" (click)="irVotarfoto()"></button>
+               <ion-button color="primary"  class="but_participa" (click)="irVotarfoto()" >Vota en Reto Fotografia</ion-button>
+              </ion-col>
+    </ion-row>
+    <ion-row>
+           <ion-col>
+                 <button  class="caja caja_dos"(click)="irVotarvideo()" ></button>
+                 <ion-button color="primary"  class="but_participa" (click)="irVotarvideo()">Vota en  Reto de Video</ion-button>
+           </ion-col>
+    </ion-row>
+    
+     
+</ion-grid>
+</ion-content>

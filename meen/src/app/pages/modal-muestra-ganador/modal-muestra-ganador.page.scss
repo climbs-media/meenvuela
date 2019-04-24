@@ -1,0 +1,95 @@
+*{
+     
+    margin:0px;
+    padding:0px;
+  }
+  .principal{
+    background:rgba(255, 255, 255, 0.8);
+    
+    background-size: cover;
+    margin-top: 35%;
+    margin-left: 10%;
+    width: 80%;
+    height: 60%;
+    border-radius: 5px;
+  }
+
+  
+  /* boton de cerrar */
+ 
+  .close-fake {
+    --background: transparent;
+      ion-icon {
+        font-size: 1rem;
+        color: white;
+        background: rgb(212, 38, 142);
+        border-radius: 30px;   
+    
+    }
+    margin-top: 40px;
+    margin-left: 75%;
+}
+ 
+ion-content {
+    --background: rgba(59, 1, 39, 0.555);
+}
+
+  /* imagen */
+  .cont_imagen{
+     width: 80%;
+     margin: 0 auto;
+     height: 140px;
+     text-align: center;
+    
+  }
+ 
+  img{
+    width: 100%;
+    height: 100%;
+  }
+
+  /*pie de foto*/
+  .cont_pieFoto{
+    padding: 20px;
+     }
+  .pieFoto{
+     background:#E5087E;
+     width: 180px;
+     height: 40px;
+     color:white;
+     text-align: center;
+     border-radius: 5px 5px 5px 5px;
+     padding:3px;
+     font-size: 12px;
+      margin: 5px auto;
+  }
+  /* Descripcion*/
+
+  .descri{
+
+  text-align: center;
+ 
+  }
+
+  /* boton final */
+  .cont_boton{
+    padding:10px;
+ 
+  }
+  .boton{
+      margin:5px;
+     padding: 8px;
+     background:#E5087E;
+     color:white;
+     text-align: center;
+     border-radius: 5px 5px 5px 5px;
+     font-size: 12px;
+     width: 110px;
+     height: 27px;
+ }
+
+
+.descripcion{
+font-size: 15px;
+text-align: center;
+}

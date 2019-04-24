@@ -1,0 +1,57 @@
+
+ .titulo{
+   font-size: 14px;
+ }
+
+ //TITULOS DE CAJAS
+ .cont_titu{
+     background: #E5087E;
+     width: 232px;
+     height: 24px;
+     margin:0 auto;
+     border-radius: 4px 4px 4px 4px;
+     margin-bottom: 5px;
+ }
+ .titu{
+    color: #F9F7F6;
+    font-size: 15px;
+  }
+    //CAJA DE IMAGENES
+    .caja{
+        width: 232px;
+        height:115px;
+        border:0.5px solid black;
+      }
+
+     .caja_uno{
+       background-image:url("../../../assets/imgs/portadas/retofoto.PNG");
+       background-size: cover; 
+     }
+     
+     .caja_dos{
+        background-image:url("../../../assets/imgs/portadas/ganaretovideo.PNG");
+        background-size: cover; 
+      }
+      
+    
+
+      .but_mostrar{
+        width: 200px;
+        height:28px;
+        color:white;
+        font-size: 12px;
+        text-transform: none;
+      }
+      .copa{
+        position: absolute;
+        transform: rotate(-30deg);
+        width: 30px;
+        height: 30px;
+        z-index: 100;
+      }
+      .volver{
+        background: none;
+        float: left;
+        margin-top: -10px;
+        margin-left: -15px; 
+      }

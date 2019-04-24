@@ -1,0 +1,23 @@
+<ion-content fullscreen >
+             
+    <div class="principal">
+       <ion-item class="close-fake" lines="none" text-center>
+           <ion-button (click)="close()" fill="clear" color="light">
+             <ion-icon name="close" slot="start"></ion-icon>
+           </ion-button>
+           </ion-item>
+     <div class="bloque">
+         {{pregunta}}
+     </div> 
+     
+     <div text-center>
+          <ion-button   class="but_vota"  > {{respuesta1}}</ion-button>
+          <ion-button   class="but_vota"  > {{respuesta2}}</ion-button>
+          <ion-button   class="but_vota"  > {{respuesta3}}</ion-button>
+          <ion-button   class="but_vota"  >  {{respuesta4}}</ion-button>
+          
+          <ion-button color="primary" class="baceptar"  style="width:50% ; height:30px; text-transform: none;" > Aceptar</ion-button>
+     </div>
+     </div>
+        
+     </ion-content>

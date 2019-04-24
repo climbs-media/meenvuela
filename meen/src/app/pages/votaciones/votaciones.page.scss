@@ -1,0 +1,56 @@
+
+ .titulo{
+   font-size: 20px;
+ }
+
+ .volver{
+  background: none;
+  float: left;
+  margin-left: -30px;
+  
+}
+
+
+
+ //TITULOS DE CAJAS
+ .cont_titu{
+     background: #E5087E;
+     width: 60%;
+     margin:0 auto;
+     border-radius: 4px 4px 4px 4px;
+ }
+ .titu{
+    color: #F9F7F6;
+    font-size: 20px;
+  }
+    //CAJA DE IMAGENES
+    .caja{
+        width: 232px;
+        height:115px;
+        border:0.5px solid black;
+      }
+
+     .caja_uno{
+       background-image:url("../../../assets/imgs/portadas/eve_especial.PNG");
+       background-size: cover; 
+       margin-left: -8px;
+     }
+     
+     .caja_dos{
+        background-image:url("../../../assets/imgs/portadas/ganaretovideo.PNG");
+        background-size: cover; 
+      }
+      
+     .caja_tres{
+        background-image:url("../../../assets/imgs/eve.png");
+        background-size: cover; 
+      }
+
+      .but_participa{
+        width: 200px;
+        height:28px;
+        color:white;
+        font-size: 12px;
+        margin-top: 10px;
+        text-transform: none;
+      }

@@ -1,0 +1,51 @@
+
+<ion-content padding class="fondop">
+    <app-cabecera [titulohead]="tituhead"></app-cabecera>
+  <ion-grid text-center class="conte">
+   <ion-row >
+      <ion-col style="margin-top:10%">
+          <h3 text-center class="titu">Escaparate</h3>
+
+          <div>
+                  <ion-slides pager="true" autoplay="4000" speed="900">
+                     <ion-slide>
+                       <img src="../../assets/imgs/portadas/eventos2.PNG" (click)="irVotaciones()">
+                     </ion-slide>
+                     <ion-slide>
+                         <img src="../../assets/imgs/portadas/eventos2.PNG"(click)="irVotaciones()">
+                     </ion-slide>
+                     <ion-slide>
+                         <img src="../../assets/imgs/portadas/eventos2.PNG" (click)="irVotaciones()">
+                     </ion-slide>
+                   </ion-slides>
+                 </div>
+      </ion-col >
+
+         </ion-row>
+         <ion-row>
+               <ion-col style="margin-top:20%">
+                       <h3 text-center class="titu">Ganadores</h3>
+
+                       <div>
+                               <ion-slides pager="true" autoplay="3500" speed="900">
+                                  <ion-slide>
+                                   <img src="../../assets/imgs/copaganadores.png" class="copa">
+                                    <img src="../../assets/imgs/portadas/ganadores2.PNG" (click)="irGanadores()" >
+                                  </ion-slide>
+                                  <ion-slide>
+                                       <img src="../../assets/imgs/copaganadores.png" class="copa" >
+                                      <img src="../../assets/imgs/portadas/ganadores2.PNG" (click)="irGanadores()"  >
+                                  </ion-slide>
+                                  <ion-slide>
+                                       <img src="../../assets/imgs/copaganadores.png" class="copa">
+                                      <img src="../../assets/imgs/portadas/ganadores2.PNG" (click)="irGanadores()"  >
+                                  </ion-slide>
+                                </ion-slides>
+                              </div>
+
+              </ion-col>
+           </ion-row>
+          
+     </ion-grid>
+
+   </ion-content> 

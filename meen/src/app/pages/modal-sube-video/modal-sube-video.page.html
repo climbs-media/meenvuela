@@ -1,0 +1,37 @@
+  
+  <ion-content fullscreen>
+      <div class="principal">
+        <ion-item class="close-fake" lines="none" text-center>
+            <ion-button (click)="close()" fill="clear" color="light">
+              <ion-icon name="close" slot="start"></ion-icon>
+            </ion-button>
+            </ion-item>
+            <div class="bloque">
+             <div>
+                    <ion-icon class="flecha" name="arrow-round-up"></ion-icon>
+             </div>
+             <div>
+                    <ion-button color="primary" class="botone" >Subir Vídeo</ion-button>
+                    <p>
+                      <!--<source src="https://player.vimeo.com/external/85569724.sd.mp4?s=43df5df0d733011263687d20a47557e4"
+                       type="video/mp4"/></video> -->
+                       source src="myvideo"
+                       type="video/mp4"/ </p>
+             </div>
+          
+            <div class="bar">
+                <div class="bar_progres"></div>
+            </div>
+          </div>
+  
+           <div class="subtitulo">Reto de Vídeo</div>
+            <div class="bloque2">
+                 <textarea   rows="4" cols="20" placeholder="Describe yourself here...">
+                 </textarea>
+            </div>
+            <div class="bloque3">
+                    <ion-button color="primary"  class="botones" style="width:40%"
+                     >Confirma</ion-button>
+             </div>
+            </div>
+        </ion-content>

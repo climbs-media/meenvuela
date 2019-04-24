@@ -1,0 +1,76 @@
+ion-item{
+    --border-radius: 50px;
+    margin: 0 auto;
+    padding: 15px;
+    height: 30px;
+    margin-top: 50px;
+    --border: 1px solid #BDBDBD;
+    --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: justify;
+    outline: none;
+    --min-height:25px;
+}
+
+h1{
+    color:#E5087E;
+
+    font-style: bold;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: normal;
+}
+
+
+.contiene{
+    text-align: center;
+    padding-top:15px;
+    background-image: url("../../../assets/imgs/fondoprinci.jpg");
+
+    }
+  .alas{
+      width: 80px;
+      height: 80px;
+      margin-left: -50px;
+   }
+   .volver{
+    background: none;
+    float: left;
+    left: -10px;
+    margin-top: 30px;
+    
+  }
+    //fin de cabezera
+  
+    .titulox{
+       padding-top: 25%;
+       //padding: 10px;
+       margin: 0 auto;
+       color: rgb(212, 38, 142);
+       font-weight: bold;
+       font-size: 25px;
+
+    }
+
+    ion-content{
+        --background: none;
+        color: white;
+    }
+
+    .item-highlight{
+        width: 50%;
+    }
+
+    .botonRegistro{
+        width: 40%;
+        height:40px;
+        --background: #581845;
+        --box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        --border-radius: 30px;
+        margin-left: 28%;
+        margin-top: 15%;
+    }
+
+    .fecha{
+        --border-radius: 0;
+    }
+

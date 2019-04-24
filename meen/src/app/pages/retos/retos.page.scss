@@ -1,0 +1,53 @@
+
+ .titulo{
+   font-size: 25px;
+ }
+
+ //TITULOS DE CAJAS
+ .cont_titu{
+     background: #E5087E;
+     width: 232px;
+     height: 24px;
+     margin:0 auto;
+     margin-bottom: 5px
+ }
+ .titu{
+    color: #F9F7F6;
+    font-size: 15px;
+  }
+    //CAJA DE IMAGENES
+    .caja{
+        width: 232px;
+        height:115px;
+        border:0.5px solid black;
+        text-shadow:1px 0 0 #E5087E, -1px 0 0 #E5087E, 0 1px 0 #E5087E, 0 -1px 0 #E5087E, 0.5px 0.5px #E5087E, -0.5px -0.5px 0 #E5087E, 0.5px -0.5px 0 #E5087E, -0.5px 0.5px 0 #E5087E;
+
+      }
+
+     .caja_uno{
+       background-image: url("../../../assets/imgs/portadas/retofoto.PNG");
+       background-size: cover; 
+     }
+     
+     .caja_dos{
+        background-image: url("../../../assets/imgs/portadas/retoVideo.PNG");
+        background-size: cover; 
+      }
+      
+     .caja_tres{
+        background-image: url("../../../assets/imgs/portadas/retoquiz.PNG");
+        background-size: cover; 
+      }
+
+      .but_participa{
+        width: 30%;
+        height:20px;
+        color:white;
+        font-size: 12px;
+      }
+      .iconos{
+        float: right;
+        margin-right: 8px;
+        margin-top: 4px;
+      }
+

@@ -1,0 +1,37 @@
+.close-fake {
+    --background: transparent;
+    ion-icon {
+        font-size: 1rem;
+        color: white;
+        background: rgb(212, 38, 142);
+        border-radius: 40px;
+        
+    }
+    margin-top: 40px;
+    margin-left: 75%;
+}
+ 
+ion-content {
+    --background: #582748a2;
+}
+ 
+ion-slides {
+    height: 80%;
+}
+.swiper-zoom-container{
+    width: 200px;
+    height: 200px;
+}
+.imagen{
+    width: 200px;
+    height: 200px;
+}
+.mensaje{
+    color: white;
+    background: #E5087E;
+    width: 200px;
+    height: 30px;
+    font-size: 15px;
+    position: absolute;
+    margin-top: -150px;
+}
